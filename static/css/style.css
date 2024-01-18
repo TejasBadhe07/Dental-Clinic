@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+}
+
+#nav-menu {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav-menu li {
+    float: left;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+#nav-menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav-menu li a:hover {
+    background-color: #246fb6;
+}
+
+.home {
+    margin: 50px auto;
+    position: relative; 
+    width: 80%;
+    height: 800px;
+    background-color: #526efe;
+    border-radius: 20px; /* Add this line for rounded corners */
+}
+
+
+/*
+.home::before {
+    content: "";
+    position: absolute;
+    width: 2000px;
+    height: 200px;
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+ */
