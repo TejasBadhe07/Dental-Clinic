@@ -47,37 +47,26 @@ body {
 
 .home {
     margin: 50px auto;
-    position: relative; 
+    position: relative;
     width: 80%;
     height: 490px;
     background-color: #526efe;
-    border-radius: 20px; /* Add this line for rounded corners */
+    border-radius: 20px;
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Align items with space between them */
+}
+
+.text-section {
+    padding: 20px; /* Add padding to create space around text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
 }
 
 .girl_homepage {
-    margin-top: 50px auto;
     height: 490px;
-    position: absolute;
-    right: 30px; /* Adjust the value to leave space from the right side */
-    top: 50%; /* Adjust top position if needed */
-    transform: translateY(-50%);
-}
-
-h2, h1 {
-    color: white;
     position: relative;
+    margin-left: 20px; /* Adjust the value to leave space from the left side */
+    right: 30px;
 }
-
-
-
-/*
-.home::before {
-    content: "";
-    position: absolute;
-    width: 2000px;
-    height: 200px;
-    background-color: red;
-    top: 0;
-    left: 0;
-}
- */
